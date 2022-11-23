@@ -6,6 +6,7 @@ public class TileTest {
     @Test
     public void testConstructor () {
         Tile testTile = new Tile();
-        Assertions.assertEquals(false, testTile.getIsMine());
+        Assertions.assertEquals(false, testTile.getIsMine(),"shouldn't be a mine");
     }
 }
+

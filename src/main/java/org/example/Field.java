@@ -12,7 +12,7 @@ public class Field {
     //Number of tiles on the horizontal axis.
     private int width;
     private int height;
-    private int mineCount;
+    public int mineCount;
     //Number of tiles that have been REVEALED.
     private int RevealedTotal;
     //Number of tiles marked with a flag to block Revealing as they are suspected to be bombs.
